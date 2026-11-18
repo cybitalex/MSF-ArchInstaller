@@ -1,0 +1,46 @@
+/** Family budget visual system — cool slate + deep teal (not purple / cream). */
+export const palette = {
+  ink: '#14201C',
+  inkMuted: '#5B6B64',
+  paper: '#F3F6F4',
+  paperElevated: '#FFFFFF',
+  line: '#D5DED9',
+  teal: '#0F6B5C',
+  tealDeep: '#0A4F44',
+  tealSoft: '#D8EDE7',
+  mint: '#1F9B7E',
+  amber: '#C47A1A',
+  coral: '#C44B3A',
+  sky: '#2F6F8F',
+};
+
+export default {
+  light: {
+    text: palette.ink,
+    textSecondary: palette.inkMuted,
+    background: palette.paper,
+    card: palette.paperElevated,
+    border: palette.line,
+    tint: palette.teal,
+    tabIconDefault: '#9AABA3',
+    tabIconSelected: palette.teal,
+    success: palette.mint,
+    warning: palette.amber,
+    danger: palette.coral,
+    info: palette.sky,
+  },
+  dark: {
+    text: '#E8F0EC',
+    textSecondary: '#A7B8B0',
+    background: '#0E1613',
+    card: '#18221E',
+    border: '#2A3832',
+    tint: '#4EC4AE',
+    tabIconDefault: '#6E8078',
+    tabIconSelected: '#4EC4AE',
+    success: '#4EC4AE',
+    warning: '#E0A24A',
+    danger: '#E07A6C',
+    info: '#6FA8C4',
+  },
+};
