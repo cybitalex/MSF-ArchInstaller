@@ -1,11 +1,22 @@
-# Family Budget mobile app
+### MSF-ArchInstaller
 
-React Native (Expo) app for the household Google Sheets paycheck budget.
+###### The purpose of this script is simplifying the process of installing Metasploit Framework on Arch Linux, directly from git. 
 
-See **[family-budget/README.md](family-budget/README.md)** for setup and run instructions.
+The script will :
+  
+* check is the system is up to date and install dependencies
+  
+and then download, configure and install:
+  
+* ruby using RVM
+  
+* nmap from SVN
+  
+* Metasploit Framework from Git
+  
+* Postgresql
+  
+* Armitage
+  
 
-```bash
-cd family-budget
-npm install
-npm run web
-```
+#####This project is distributed under MIT.
